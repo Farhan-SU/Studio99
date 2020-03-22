@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/d1294177dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/ecommerce.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+<!----------------------------------------------------NAVIGATION STARTS---------------------------------------------->
+        <div class="header">
+           <div class="menu">
+               <p>Menu</p>
+           </div>
+           <div class="search">
+            <form 
+                method="POST"
+                action=""
+                >
+                <label for="search_box" class="search_label"></label> 
+                <input type="search" name="search" placeholder="How can we help?">
+              </form>
+           </div>
+           <div class="logo">
+               <a href="./index.html">
+               <img src="../image/logo.png" class="media_logo">
+               </a>
+            </a>
+           </div>
+
+           <div class="login">
+            <a href="./loginpg.html">
+                <button type="button"  class="btn btn-outline-info"><img src="/image/Icon_material-person.png"></button>
+                 </a>
+           </div>
+
+           <div class="shopping-cart">
+               <button type="button" class="btn btn-outline-info"><img src="../image/shopping.svg"> </button>
+           </div>
+        </div>
+            <input type="checkbox" class="openSidebarMenu" id="hamburger" style="display: none;">
+            <label for="hamburger" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+            <div id="sidebarMenu">
+                <ul class="sidebarMenuInner navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link buttons" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link buttons" href="./colorblock.html">Color Block</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link buttons dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Traditional
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Pencil</a>
+                              <a class="dropdown-item" href="#">Acrylic</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Watercolor</a>
+                            </div>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link buttons" href="./text_art.html">Text Art</a>
+                        </li>   
+                </ul>
+                    <div class="support_nav">
+                        <h4>Support</h4>
+                        <a href="../html/" class="sup_contact_nav sidebarnav">Contact Us</a>
+                        <a href="../html/" class="sup_faq_nav sidebarnav">Frequently Asked Questions</a>
+                    
+                        <div class="soc-item ">
+                            <a href="https://twitter.com/" target="blank">
+                                <i class="footer_buttons fab fa-twitter i"></i>
+                            </a>
+                
+                            <a href="https://www.facebook.com/" target="blank">
+                                <i class="footer_buttons fab fa-facebook-f i"></i>
+                            </a>
+        
+                            <a href="https://www.instagram.com/s.allam.art/" target="blank">
+                                <i class="footer_buttons fab fa-instagram i"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/farhanislam2018/" target="blank">
+                                <i class="footer_buttons fab fa-linkedin-in i excluded"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<!----------------------------------------------------NAVIGATION ENDS---------------------------------------------->
+<main>
+<div class="container-fluid"  style="margin-top: 3rem;">
+   <div class="wrapper always">
+       <div class="bros">
+           <img src="../image/COLORBLOCK/twoguys.png" class="art">
+       </div>
+       <div class="green">
+        <img src="../image/ACRYLIC/green.jpg"  class="art">
+    </div>
+   </div>
+
+<div class="wrapper">
+       <div class="lime">
+           <img src="../image/COLORBLOCK/Lime.png"  class="art">
+       </div>
+    <div class="bio col-md-8 art" >
+        <div class="bio_text"><h2>DIGITAL ART WITH CALORIES </h2>
+            <p>But what does that even mean? It is art that is digestable and puts a taste in your mouth whether it is good or bad. Now how about those extra calories. </p>
+        </div>
+    </div>
+</div>
+
+    <div class="wrapper macmiller">
+        <h2 class="trad">TRADITIONAL MEDIUM</h2>
+        <div class="target_traditonal tar_nav">
+            <a href="./traditional.html" class="target_button" data-module="modules/AnimatedArrowButton" data-contact-button>
+                <span>Discover more</span>
+            </a>
+        </div>
+        <div class="mobile-btn-only">
+            <a href="./traditional.html">
+                <button type="button" class="btn btn-danger">Discover More</button>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="wrapper">
+        <div class="CBwrapper flex-column">
+            <div class="blocktxt">
+                <h2>COLORBLOCK ART</h2>
+                    <div class="target_colorblock tar_nav">
+                        <a href="colorblock.html" class="target_button" data-module="modules/AnimatedArrowButton" data-contact-button>
+                            <span>Discover more</span>
+                        </a> 
+                    </div>
+                <div class="mobile-btn-only" >
+                    <a href="./colorblock.html">
+                        <button type="button" class="btn btn-primary">Discover More</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="TAwrapper flex-column">
+            <div class="textart_txt">
+                <h2>TEXT ART</h2>
+                <div class="target_text_art tar_nav">
+                    <a href="textart.html" class="target_button" data-module="modules/AnimatedArrowButton" data-contact-button>
+                        <span>Discover more</span>
+                    </a> 
+                </div>
+                <div class="mobile-btn-only" >
+                    <a href="./textart.html">
+                        <button type="button" class="btn btn-outline-dark">Discover More</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="meettheartist">
+            <div class="meettext">
+                <h2 class="biggertext">MEET THE <br>ARTIST</h2>
+                <div class="target_meettheartist tar_nav">
+                    <a href="./meettheartist.html" class="target_button" data-module="modules/AnimatedArrowButton" data-contact-button>
+                        <span>Discover more</span>
+                    </a> 
+                </div> 
+                <div class="mobile-btn-only" >
+                    <a href="./meettheartist.html">
+                        <button type="button" class="btn btn-outline-light">Discover More</button>
+                    </a>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<!----------------------------------------------------FOOTER STARTS---------------------------------------------->
+<footer>
+    <div class="container-fluid footer">
+            <div class="footer_suscribe">
+                <div class="footer_logo"> 
+                    <img src="../image/logo.png" style="width: 70%;">
+                </div>
+                <div class="footer_form">
+                    <form action="/action_page.php">
+                        <label for="keepINtouch" style="font-size: 1.4rem; margin-bottom: 1.3rem; font-weight: 500;">Keep in Touch!</label><br>
+                        <input type="email" id="keepINtouch" name="footer_subscribe"  class="form-control validate[required]" placeholder="Enter your email address">
+                        <br>
+                        <input type="submit" value="Submit">
+                      </form> 
+                </div>
+            </div>
+
+            <div class="supportmedia">
+                <div class="social">
+                    <h3>SOCIAL MEDIA</h3>
+                        <div class="soc-item">
+                            <a href="https://twitter.com/" target="blank">
+                                <i class="footer_buttons fab fa-twitter socicon"></i>
+                            </a>
+                
+                            <a href="https://www.facebook.com/" target="blank">
+                                <i class="footer_buttons fab fa-facebook-f socicon"></i>
+                            </a>
+        
+                            <a href="https://instagram.com/" target="blank">
+                                <i class="footer_buttons fab fa-instagram socicon"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/farhanislam2018/" target="blank">
+                                <i class="footer_buttons fab fa-linkedin-in socicon excluded"></i>
+                            </a>
+                        </div>
+                </div>
+
+                <div class="shop_wrapper">
+                    <h3>SHOP</h3> 
+                    <a class="footer_buttons" href="./colorblock.html">Color Block</a> 
+                    <a class="footer_buttons" href="./traditional.html">Traditional</a> 
+                    <a class="footer_buttons excluded" href="./colorblock.html">Text Art</a> 
+                </div>
+
+                <div class="contact_wrapper">
+                    <h3>CONTACT US</h3> 
+                    <a class="footer_buttons" href="./contactus.html">Contact Us</a> 
+                    <a class="footer_buttons excluded" href="./contactus.html">FAQ</a> 
+                </div>
+            </div>
+    </div>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>  
+</body>
+</html>
