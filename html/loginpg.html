@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/d1294177dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/loginpg.css">
+     
+    <title>Document</title>
+</head>
+<body>
+ <!----------------------------------------------------NAVIGATION STARTS---------------------------------------------->
+<div class="container-fluid">
+                <input type="checkbox" class="openSidebarMenu" id="hamburger" style="display: none;">
+                <label for="hamburger" class="sidebarIconToggle">
+                    <div class="spinner diagonal part-1"></div>
+                    <div class="spinner horizontal"></div>
+                    <div class="spinner diagonal part-2"></div>
+                </label>
+                <div id="sidebarMenu">
+                    <ul class="sidebarMenuInner navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link buttons" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link buttons" href="./colorblock.html">Color Block</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link buttons dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Traditional
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">Pencil</a>
+                                  <a class="dropdown-item" href="#">Acrylic</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item" href="#">Watercolor</a>
+                                </div>
+                              </li>
+                            <li class="nav-item">
+                              <a class="nav-link buttons" href="./text_art.html">Text Art</a>
+                            </li>   
+                    </ul>
+                        <div class="support_nav">
+                            <h4>Support</h4>
+                            <a href="../html/" class="sup_contact_nav sidebarnav">Contact Us</a>
+                            <a href="../html/" class="sup_faq_nav sidebarnav">Frequently Asked Questions</a>
+                        
+                            <div class="soc-item ">
+                                <a href="https://twitter.com/" target="blank">
+                                    <i class="footer_buttons fab fa-twitter i"></i>
+                                </a>
+                    
+                                <a href="https://www.facebook.com/" target="blank">
+                                    <i class="footer_buttons fab fa-facebook-f i"></i>
+                                </a>
+            
+                                <a href="https://www.instagram.com/s.allam.art/" target="blank">
+                                    <i class="footer_buttons fab fa-instagram i"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/farhanislam2018/" target="blank">
+                                    <i class="footer_buttons fab fa-linkedin-in i excluded"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+<!----------------------------------------------------NAVIGATION ENDS---------------------------------------------->
+<main>
+<section class="login-wrapper">
+    <div class="login_header">
+        <h3> WELCOME TO</h3>
+        <img src="../image/logo.png" class="login-logo">
+    </div>
+    <form action="" method="post" class="loginform">
+        <div class="container">
+          <label for="username"></label>
+          <input type="text" placeholder="E-Mail" name="useruname" required>
+      
+          <label for="psw"><b></b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+       
+        <div class="login-buttons">
+          <button type="submit" class="loginbut">Login</button>
+          <button type="submit" class="signbut">Sign Up</button>
+        </div>
+        
+          <label>
+            <input type="checkbox" checked="checked" name="remember" class="remember"> Remember me
+          </label>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+</section>
+</main>
+<!----------------------------------------------------FOOTER STARTS---------------------------------------------->
+<!----------------------------------------------------FOOTER ENDS------------------------------------------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>  
+<script src="../javascript/traditional.js"></script>
+</body>
+</html>
