@@ -1,4 +1,4 @@
 # Studio99
 An Artist Shop
 
-An eCommerce website I am built for my Advanced Web Development class using Next.Js. I am using CodyHouse's JS framework for the Cart, Stripe for payment, and Fire base for user login/authentication.
+An eCommerce website powered by Moltin storefront using Next.Js. Moltin API was used to store my data and manage inventory.  I also used Stripe for payment, and Fire base for user login/authentication.
